@@ -6,9 +6,15 @@
  where idade > 30
 
 
+ select nome, especialidade, idade 
+ from medicos
+ where nome like '%Carlos%'
 
 
 
+
+ SELECT * FROM medicos
+ where nroa is not null
 
 
 
